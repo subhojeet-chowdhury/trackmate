@@ -1,0 +1,264 @@
+@media screen and (max-width: 800px) and (min-width: 400px) {
+  /* updated utility classes for mobile  */
+  .heading-primary {
+    font-size: 5rem;
+  }
+  .heading-secondary {
+    font-size: 4rem;
+  }
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+  .title {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+  .text-primary {
+    font-size: 2rem;
+  }
+  /* classes */
+  .section-heading {
+    background-position: bottom bottom;
+  }
+  .toggle-mobile {
+    display: block;
+    z-index: 1000;
+  }
+  .toggle-mobile i {
+    font-size: 3rem;
+    color: var(--color-primary);
+  }
+  .main-nav {
+    background: var(--color-secondary);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    transform: translateY(-200%);
+  }
+  .main-nav li {
+    position: absolute;
+  }
+  .main-nav li:nth-child(1) {
+    top: 42%;
+  }
+  .main-nav li:nth-child(2) {
+    top: 6vh;
+    left: 10rem;
+    transform: translateY(-50%);
+  }
+  .main-nav li:nth-child(3) {
+    top: 6vh;
+    right: 20rem;
+    font-size: 1.5rem;
+    transform: translateY(-50%);
+  }
+  .main-header.active .main-nav {
+    transform: translateY(0);
+  }
+  /* banner */
+
+  .section-banner {
+    grid-template-columns: 1fr;
+  }
+  .banner-content,
+  .banner-image {
+    text-align: center;
+  }
+  /* section about notification */
+  .section-about-notifications {
+    grid-template-columns: 1fr;
+  }
+  .notification-image {
+    width: 60%;
+  }
+  .notification-image img {
+    width: 100%;
+  }
+  .notification-info {
+    justify-self: center;
+    text-align: center;
+    grid-row: 1/2;
+    gap: 3rem;
+    position: relative;
+  }
+
+  .notification-info p {
+    width: 60rem;
+  }
+
+  /* section about tracking */
+  .section-about-tracking {
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+  .tracking-info {
+    gap: 3rem;
+    text-align: center;
+  }
+  .tracking-info p {
+    width: 60rem;
+  }
+  .tracking-image {
+    text-align: center;
+  }
+  .tracking-image img {
+    width: 80%;
+  }
+
+  /* section about styling */
+  .section-about-style {
+    height: 100vh;
+  }
+  .style-content {
+    gap: 3rem;
+  }
+  .style-content p {
+    width: 60rem;
+  }
+
+  .style-image img {
+    width: 60%;
+  }
+  /* section about alert */
+  .section-about-alert {
+    grid-template-columns: 1fr;
+  }
+  .alert-info {
+    text-align: center;
+  }
+  .alert-info p {
+    width: 60rem;
+  }
+  .alert-info h2 {
+    display: inline-block;
+  }
+
+  /* section about specifications */
+  .section-about-specifications {
+    height: 380vh;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .specifications-list {
+    background: none;
+    padding: 0 3rem;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .specification {
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .specification:nth-child(even) {
+    justify-self: center;
+  }
+
+  .suggestions {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    justify-items: center;
+  }
+
+  .suggestion-card {
+    height: 60rem;
+    width: 65rem;
+    gap: 2rem;
+  }
+
+  .suggestion-card .heading-secondary {
+    display: inline;
+    margin-right: 1rem;
+  }
+
+  .suggestion-card:nth-child(1),
+  .suggestion-card:nth-child(2) {
+    justify-self: center;
+  }
+
+  .end-info {
+    gap: 3rem;
+  }
+
+  .end-image {
+    width: 60%;
+  }
+
+  .end-image img {
+    width: 100%;
+  }
+  .subscribe-container {
+    gap: 4rem;
+  }
+
+  .subscribe {
+    height: 5rem;
+    width: 50rem;
+  }
+
+  .subscribe input {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+  }
+
+  .subscribe label {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    right: 0.3rem;
+  }
+  footer {
+    height: 25vh;
+    grid-template-columns: 1fr;
+    padding: 2rem 0;
+  }
+  footer ul {
+    gap: 2rem;
+  }
+
+  footer ul a {
+    font-size: 1.8rem;
+  }
+
+  .border {
+    width: 90%;
+  }
+
+  /* buy now popup */
+  .product-inventory {
+    width: 90%;
+    grid-template-columns: 2fr 3fr;
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .close {
+    font-size: 3rem;
+  }
+  .product-view {
+    gap: 2rem;
+  }
+  .product-image {
+    width: 100%;
+  }
+  .product-varients {
+    gap: 1.5rem;
+  }
+  .product {
+    width: 3rem;
+  }
+  .product-details {
+    gap: 2rem;
+  }
+
+  /* cart-popup */
+  .cart-popup {
+    width: 50%;
+  }
+}
