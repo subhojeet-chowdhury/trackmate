@@ -99,5 +99,5 @@ const addToCart = document.getElementById("add");
 addToCart.addEventListener("click", () => {
   const quantity = document.getElementById("quantity").value;
   createItem(image, quantity);
-  document.getElementById("total").innerText = `$${quantity * 84}`;
+  document.getElementById("total").innerText = `$${quantity * 86}`;
 });
