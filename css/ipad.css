@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) and (min-width: 400px) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
   /* updated utility classes for mobile  */
   .heading-primary {
     font-size: 5rem;
